@@ -1,0 +1,12 @@
+﻿<Window x:Class="ControlExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        
+        Title="MainWindow" Height="300" Width="300">
+    
+    <Grid>
+        <local:ProgressCircle HorizontalAlignment="Left" Margin="83,121,0,0" VerticalAlignment="Top" Loaded="ProgressCircle_Loaded"/>
+
+
+    </Grid>
+</Window>
